@@ -17,6 +17,7 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+config[:http_prefix] = ENV['HTTP_PREFIX'] || 'http://localhost:4567'
 
 # Reload the browser automatically whenever files change
 configure :development do
