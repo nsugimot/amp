@@ -1,0 +1,14 @@
+general:
+  branches:
+    only:
+      - master
+
+test:
+  override:
+    - 'true'
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - bundle exec middleman deploy
