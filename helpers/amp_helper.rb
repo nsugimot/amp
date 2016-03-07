@@ -9,4 +9,9 @@ module AmpHelper
     noscript = content_tag(:noscript, super)
     amp_img + noscript
   end
+
+  def stylesheet_inline_tag(resource)
+    path = "build/stylesheets/#{resource}.css"
+    content_tag :style, File.read(path), 'amp-custom'=>''
+  end
 end
