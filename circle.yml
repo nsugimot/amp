@@ -15,4 +15,6 @@ deployment:
   production:
     branch: master
     commands:
+      - git config --global user.name "circleci"
+      - git config --global user.email "nsugimoto@appirits.com"
       - bundle exec middleman deploy
