@@ -3,6 +3,10 @@ general:
     only:
       - master
 
+machine:
+  ruby:
+    version: 2.3.0
+
 test:
   override:
     - 'true'
