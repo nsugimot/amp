@@ -7,6 +7,8 @@ page '/*.txt', layout: false
 configure :production do
   config[:http_prefix] = 'https://nsugimot.github.io/amp/'
 end
+config[:markdown_engine] = :redcarpet
+config[:markdown] = {fenced_code_blocks: true}
 
 # Reload the browser automatically whenever files change
 configure :development do

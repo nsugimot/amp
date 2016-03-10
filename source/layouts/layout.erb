@@ -10,6 +10,9 @@
     <%= schema_org_json_ld_tag %>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <%- Array(current_page.data.amp_components).each do |name| -%>
+    <%= require_amp_component(name) %>
+    <%- end -%>
     <%= stylesheet_inline_tag :site %>
   </head>
 
