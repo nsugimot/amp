@@ -17,7 +17,21 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <amp-analytics type="googleanalytics" id="UA-74786367-1"></amp-analytics>
+    <amp-analytics type="googleanalytics">
+      <script type="application/json">
+        {
+          "vars": {
+            "account": "UA-74786367-1"
+          },
+          "triggers": {
+            "trackPageview": {
+              "on": "visible",
+              "request": "pageview"
+            }
+          }
+        }
+      </script>
+    </amp-analytics>
     <%= yield %>
   </body>
 </html>
