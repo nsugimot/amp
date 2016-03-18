@@ -6,7 +6,15 @@ amp_components:
 
 [amp-youtube](https://www.ampproject.org/docs/reference/extended/amp-youtube.html)
 
-<amp-youtube data-videoid="ZZ5LpwO-An4" width="480" height="270" layout="responsive"></amp-youtube>
+## 概要
+
+[YouTube](https://www.youtube.com/)の動画を表示する。
+
+- data-videoid は必須
+- height は必須
+- layout=responsive を指定すると width, height に合わせた比率で横幅を拡大する
+
+## 例
 
 ```html
 <amp-youtube
@@ -17,6 +25,4 @@ amp_components:
 </amp-youtube>
 ```
 
-- data-videoid は必須
-- height は必須
-- layout=responsive を指定すると width, height に合わせた比率で横幅を拡大する
+<amp-youtube data-videoid="ZZ5LpwO-An4" width="480" height="270" layout="responsive"></amp-youtube>

@@ -12,7 +12,7 @@ amp_components:
 
 ## 例
 
-<amp-accordion>
+<div><amp-accordion>
   <section expanded>
     <h2>Section 1</h2>
     <p>Bunch of awesome content</p>
@@ -24,5 +24,5 @@ amp_components:
   <section>
     <h2>Section 3</h2>
   </section>
-</amp-accordion>
+</amp-accordion></div>
 
