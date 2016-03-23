@@ -1,8 +1,26 @@
 @charset "utf-8";
 @import "normalize";
 
-body {
-  background: white;
+.site {
+  background: lightgrey;
   color: black;
-  padding: 5vw;
+  margin: 0;
+  padding: 0;
+
+  &__header {
+    background: white;
+    padding: 2rem;
+  }
+
+  &__main {
+    background: white;
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  &__footer {
+    background: white;
+    border-top: solid 1px;
+    padding: 2rem;
+  }
 }

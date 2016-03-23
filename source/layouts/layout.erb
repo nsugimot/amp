@@ -2,7 +2,7 @@
 <html amp>
   <head>
     <meta charset="utf-8">
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title %><% current_page.data.title && ' - '%> AMP について</title>
     <link rel=canonical href=<%= current_page.url %>>
     <link rel=amphtml href=<%= current_page.url %>>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -16,7 +16,7 @@
     <%= stylesheet_inline_tag :site %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body class="site">
     <amp-analytics type="googleanalytics">
       <script type="application/json">
         {
@@ -32,6 +32,12 @@
         }
       </script>
     </amp-analytics>
+    <header class="site__header"><h1><%= link_to 'AMP について', '/' %></h1></header>
+    <main class="site__main">
     <%= yield %>
+    </main>
+    <footer class="site__footer">
+     &copy; 2016 Appirits Inc.
+    </footer>
   </body>
 </html>
