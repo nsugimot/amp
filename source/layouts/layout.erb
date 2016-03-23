@@ -2,7 +2,7 @@
 <html amp>
   <head>
     <meta charset="utf-8">
-    <title><%= current_page.data.title %><% current_page.data.title && ' - '%> AMP について</title>
+    <title><%= current_page.data.title %><%= current_page.data.title && ' - '%>AMP について</title>
     <link rel=canonical href=<%= current_page.url %>>
     <link rel=amphtml href=<%= current_page.url %>>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
