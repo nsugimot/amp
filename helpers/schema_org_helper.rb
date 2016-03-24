@@ -28,7 +28,7 @@ module SchemaOrgHelper
           },
         },
         dateModified: (page.data.date || File.mtime(page.source_file)).iso8601,
-        mainEntityOfPage: url_for('/'),
+        mainEntityOfPage: url_for('/index.html'),
       }.merge(custom).to_json
     end
   end
