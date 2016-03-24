@@ -12,10 +12,15 @@ amp_components:
 
 - `amp-accordion` 直下の `section` が折り畳み対象になる
 - `expanded` 属性のある `section` は最初から開かれた状態になる
-- `section` にはちょうど 2 つの子要素が必要
+- `section` にはちょうど 2 つの子要素が必要、かつ 1 番目は h1 ～ h6 でなければならない
   - OK: `<section><h1></h1><div><p></p><p></p></div></section>`
-  - NG: `<section><div><p></p><p></p></div></section>`
-  - NG: `<section><h1></h1><p></p><p></p></section>`
+  - NG (子が 1 つ): `<section><h1></h1></section>`
+  - NG (子が 3 つ): `<section><h1></h1><p></p><p></p></section>`
+  - NG (1 番目が p): `<section><p></p><h1></h1></section>`
+
+## 可能な[レイアウト](../layouts.html)
+
+- container
 
 ## 例
 

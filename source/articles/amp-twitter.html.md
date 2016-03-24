@@ -10,6 +10,14 @@ amp_components:
 
 [Twitter](https://twitter.com) のツイートを埋め込む。
 
+## 可能な[レイアウト](../layouts.html)
+
+- fill
+- fixed
+- fixed-height
+- nodisplay
+- responsive
+
 ## 例
 
 <div><amp-twitter width=486 height=657

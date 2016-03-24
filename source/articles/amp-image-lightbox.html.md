@@ -10,6 +10,10 @@ amp_components:
 
 画像を lightbox で表示する。
 
+## 可能な[レイアウト](../layouts.html)
+
+- nodisplay
+
 ## 例
 
 ```html

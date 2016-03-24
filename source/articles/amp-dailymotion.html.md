@@ -10,5 +10,13 @@ amp_components:
 
 [Dailymotion](http://www.dailymotion.com/)の動画プレイヤーを表示する。
 
+## 可能な[レイアウト](../layouts.html)
+
+- fill
+- fixed
+- fixed-height
+- responsive
+- container
+
 ## 例
 

@@ -10,6 +10,14 @@ amp_components:
 
 [Instagram](https://www.instagram.com/)の画像を埋め込む。
 
+## 可能な[レイアウト](../layouts.html)
+
+- fill
+- fixed
+- fixed-height
+- nodisplay
+- responsive
+
 ## 例
 
 ```html

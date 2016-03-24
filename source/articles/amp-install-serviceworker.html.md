@@ -6,6 +6,10 @@ amp_components:
 
 # [amp-install-serviceworker](https://www.ampproject.org/docs/reference/extended/amp-install-serviceworker.html)
 
+## 可能な[レイアウト](../layouts.html)
+
+- nodisplay
+
 ## 概要
 
 [ServiceWorker](https://developer.mozilla.org/ja/docs/Web/API/ServiceWorker_API)をインストールする。

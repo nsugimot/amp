@@ -10,6 +10,14 @@ amp_components:
 
 [Vine](https://vine.co/)の動画を表示する。
 
+## 可能な[レイアウト](../layouts.html)
+
+- fill
+- fixed
+- fixed-height
+- nodisplay
+- responsive
+
 ## 例
 
 <amp-vine width="400" height="400"

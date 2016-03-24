@@ -10,7 +10,20 @@ amp_components:
 
 下に通知が出る。
 
+## 可能な[レイアウト](../layouts.html)
+
+- nodisplay
+
 ## 例
+
+```html
+<div><amp-user-notification
+    layout=nodisplay
+    id="amp-user-notification1">
+    おはようございます。
+   <button on="tap:amp-user-notification1.dismiss">I accept</button>
+</amp-user-notification></div>
+```
 
 <div><amp-user-notification
     layout=nodisplay

@@ -10,6 +10,14 @@ amp_components:
 
 [Facebook](https://www.facebook.com) のポストやビデオを埋め込む。
 
+## 可能な[レイアウト](../layouts.html)
+
+- fill
+- fixed
+- fixed-height
+- nodisplay
+- responsive
+
 ## 例
 
 <amp-facebook width=486 height=657

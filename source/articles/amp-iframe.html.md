@@ -15,6 +15,14 @@ of the viewport or 600px from the top (whichever is smaller)
 
 src は https:// で始まるURLのみ。
 
+## 可能な[レイアウト](../layouts.html)
+
+- fill
+- fixed
+- fixed-height
+- nodisplay
+- responsive
+
 ## 例
 
 ```html

@@ -11,6 +11,14 @@ amp_components:
 
 リモート JSON の内容を mustache テンプレートに流し込んで表示する。
 
+## 可能な[レイアウト](../layouts.html)
+
+- fill
+- fixed
+- fixed-height
+- nodisplay
+- responsive
+
 ## 例
 
 ```

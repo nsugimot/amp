@@ -14,6 +14,14 @@ amp_components:
 - height は必須
 - layout=responsive を指定すると width, height に合わせた比率で横幅を拡大する
 
+## 可能な[レイアウト](../layouts.html)
+
+- fill
+- fixed
+- fixed-height
+- nodisplay
+- responsive
+
 ## 例
 
 ```html

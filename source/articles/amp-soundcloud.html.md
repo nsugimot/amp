@@ -10,12 +10,17 @@ amp_components:
 
 [Soundcloud](https://soundcloud.com/) を埋め込む。
 
+## 可能な[レイアウト](../layouts.html)
+
+- fixed-height
+
 ## 例
 
 <amp-soundcloud height=657
     layout="fixed-height"
     data-trackid="243169232"
     data-visual="true"></amp-soundcloud>
+
 Classic Mode:
 
 <amp-soundcloud height=657

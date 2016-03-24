@@ -10,6 +10,14 @@ amp_components:
 
 [Pinterest](https://www.pinterest.com/) の Pin It ボタンまたはウィジェットを表示する。
 
+## 可能な[レイアウト](../layouts.html)
+
+- fill
+- fixed
+- fixed-height
+- nodisplay
+- responsive
+
 ## 例
 
 <amp-pinterest height=20 width=40
