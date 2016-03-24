@@ -5,6 +5,8 @@ schema_org:
 ---
 # レイアウトについて
 
+https://github.com/ampproject/amphtml/blob/master/spec/amp-html-layout.md
+
 ## nodisplay
 
 表示しない
