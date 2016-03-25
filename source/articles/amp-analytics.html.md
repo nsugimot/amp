@@ -8,6 +8,14 @@ title: amp-analytics
 
 アクセス解析を行う。
 
+## 属性
+
+### config
+
+設定値を、子要素の JSON  ではなく、これで指定した URL から読み込む。
+
+制限: https URL のみ
+
 ## 例
 
 ```html

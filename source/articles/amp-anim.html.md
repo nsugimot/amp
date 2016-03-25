@@ -14,6 +14,17 @@ amp_components:
 
 src か srcset のどちらかが必須。
 
+### src
+
+画像の URL。 `data`, `http`, `https` のいずれかのプロトコルでないといけない。
+
+### srcset
+
+[img 要素](https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element)
+の srcset と同じ。
+
+URL は `data`, `http`, `https` のいずれかのプロトコルでないといけない。
+
 ### alt
 
 代替テキスト。
@@ -28,7 +39,9 @@ src か srcset のどちらかが必須。
 値: ""
 -->
 
+<!-- ちょっとよくわからない
 ### controls
+-->
 
 ## 例
 
@@ -43,3 +56,4 @@ src か srcset のどちらかが必須。
   <amp-img placeholder width=400 height=300 src="../images/ohayougozaimasu.gif">
   </amp-img>
 </amp-anim>
+
