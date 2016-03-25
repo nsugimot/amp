@@ -29,6 +29,18 @@ amp_components:
 </amp-list>
 ```
 
+```js
+// amp-list.json
+{
+  "items": [
+    {"title": "PRIZM♪RIZM", "artist": "WITCH NUMBER 4"},
+    {"title": "AOZORA TRAIN", "artist": "SiSH"},
+    {"title": "オ・モ・イ アプローチ", "artist": "NI+CORA"},
+    {"title": "たいくつりぼん", "artist": "サンボンリボン"}
+  ]
+}
+```
+
 <div><amp-list src="./amp-list.json" width=300 height=200 layout=responsive>
   <template type="amp-mustache">
     <div>{{title}} by {{artist}}</div>

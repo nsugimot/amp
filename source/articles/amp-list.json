@@ -1,7 +1,8 @@
 {
   "items": [
-    {"name": "う", "age": 4},
-    {"name": "ん", "age": 56},
-    {"name": "こ", "age": 7}
+    {"title": "PRIZM♪RIZM", "artist": "WITCH NUMBER 4"},
+    {"title": "AOZORA TRAIN", "artist": "SiSH"},
+    {"title": "オ・モ・イ アプローチ", "artist": "NI+CORA"},
+    {"title": "たいくつりぼん", "artist": "サンボンリボン"}
   ]
 }
