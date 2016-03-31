@@ -16,10 +16,20 @@ module AmpHelper
   end
 
   # <%= require_amp_component 'amp-youtube'
-  def require_amp_component(name, version='0.1')
-    content_tag :script, '',
+  def require_amp_component(name, version='latest')
+    content_tag(:script, '', {
       async: '',
       'custom-element'=> name,
-      src: "https://cdn.ampproject.org/v0/#{name}-#{version}.js"
+      src: "https://cdn.ampproject.org/v0/#{name}-#{version}.js",
+    })
+  end
+
+  # amp-mustache で使う
+  def require_amp_custom_template(name, version='latest')
+    content_tag(:script, '', {
+      async: '',
+      'custom-template'=> name,
+      src: "https://cdn.ampproject.org/v0/#{name}-#{version}.js",
+    })
   end
 end

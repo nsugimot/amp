@@ -21,5 +21,22 @@ amp_components:
 
 ## 例
 
+```
 <amp-social-share type="twitter" width="60" height="44">
+</amp-social-share>
+```
+
+<amp-social-share type="twitter" width="60" height="44">
+</amp-social-share>
+
+### リンクをカスタマイズ
+
+```
+<amp-social-share type="twitter" width="120" height="40">
+<a>ツイートする</a>
+</amp-social-share>
+```
+
+<amp-social-share type="twitter" width="120" height="40">
+<a>ツイートする</a>
 </amp-social-share>

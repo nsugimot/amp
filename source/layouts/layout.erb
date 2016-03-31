@@ -14,6 +14,9 @@
     <%- Array(current_page.data.amp_components).each do |name| -%>
     <%= require_amp_component(name) %>
     <%- end -%>
+    <%- Array(current_page.data.amp_custom_templates).each do |name| -%>
+    <%= require_amp_custom_template(name) %>
+    <%- end -%>
     <%= stylesheet_inline_tag :site %>
   </head>
 

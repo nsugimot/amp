@@ -2,6 +2,7 @@
 title: amp-list
 amp_components:
   - amp-list
+amp_custom_templates:
   - amp-mustache
 ---
 

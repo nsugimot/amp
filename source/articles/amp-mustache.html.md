@@ -1,6 +1,6 @@
 ---
 title: amp-mustache
-amp_components:
+amp_custom_templates:
   - amp-mustache
 ---
 
