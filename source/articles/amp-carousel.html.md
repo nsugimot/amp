@@ -28,7 +28,6 @@ amp_components:
 ```
 
 <div>
-<style>.panel{width: 300px; height: 300px; background: green}</style>
 <amp-carousel height=300>
   <div class="panel">あ</div>
   <div class="panel">い</div>
